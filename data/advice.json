@@ -1,0 +1,442 @@
+{
+  "_meta": {
+    "purpose": "Category-level guidance shown alongside a model prediction.",
+    "review_status": "NOT REVIEWED BY A PLANT PATHOLOGIST. Written from general agronomic sources for a portfolio project. Every entry needs review by a qualified agronomist before this is used to advise a real grower.",
+    "no_product_names": "Active ingredients and trade names are deliberately omitted. Approved products differ by country and change over time, and a wrong chemical recommendation wastes money at best and harms a crop or a person at worst. Every entry defers to a local extension officer for specific products.",
+    "sources": [
+      "ICAR crop protection advisories (general practice)",
+      "TNAU Agritech Portal crop management pages (general practice)",
+      "CABI Plantwise factsheets (general practice)"
+    ]
+  },
+  "cassava": {
+    "cmd": {
+      "name": "Cassava mosaic disease",
+      "kind": "viral disease",
+      "urgency": "act this week",
+      "summary": "A virus spread by whiteflies and, more often, by planting infected stem cuttings. There is no cure for an infected plant.",
+      "actions": [
+        "Remove and destroy visibly infected plants — do not compost them.",
+        "Never take planting cuttings from an infected field.",
+        "Check neighbouring plants; the virus spreads outward from a focus.",
+        "Manage whitefly populations if numbers are high."
+      ],
+      "prevention": [
+        "Source cuttings from a certified clean supplier or a known-healthy field.",
+        "Plant resistant or tolerant varieties where available.",
+        "Inspect new plantings at 4 and 8 weeks, when symptoms first appear."
+      ],
+      "note": "Most spread in practice comes from cuttings rather than insects, so clean planting material matters more than spraying."
+    },
+    "cbb": {
+      "name": "Cassava bacterial blight",
+      "kind": "bacterial disease",
+      "urgency": "act this week",
+      "summary": "A bacterial disease spread by rain splash, infected cuttings, and contaminated tools. Severe outbreaks can kill young plants.",
+      "actions": [
+        "Remove and burn affected plant material.",
+        "Disinfect cutting tools between plants.",
+        "Avoid working in the field while foliage is wet — that is when it spreads."
+      ],
+      "prevention": [
+        "Use clean planting material from an unaffected field.",
+        "Rotate away from cassava for at least one season on affected land.",
+        "Clear crop debris after harvest rather than leaving it in the field."
+      ],
+      "note": "Bactericides are not generally effective. Sanitation and clean cuttings are the practical controls."
+    },
+    "cbs": {
+      "name": "Cassava brown leaf spot",
+      "kind": "fungal disease",
+      "urgency": "monitor",
+      "summary": "A common fungal leaf spot. Usually cosmetic on established plants and rarely worth treating on its own.",
+      "actions": [
+        "Note the severity and check again in two weeks.",
+        "Treat only if it is spreading rapidly across young plants."
+      ],
+      "prevention": [
+        "Space plants for airflow so leaves dry after rain.",
+        "Remove heavily affected lower leaves and crop debris."
+      ],
+      "note": "Yield loss from brown leaf spot alone is usually small. If plants look poor, look for another cause as well."
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "no problem detected",
+      "urgency": "none",
+      "summary": "No disease symptoms detected in this image.",
+      "actions": [
+        "Continue routine monitoring, particularly at 4 and 8 weeks after planting."
+      ],
+      "prevention": [
+        "Keep using clean planting material.",
+        "Watch for whitefly, which spreads mosaic disease."
+      ],
+      "note": "One healthy leaf does not mean a healthy field. Check several plants across the plot."
+    }
+  },
+  "rice": {
+    "blast": {
+      "name": "Rice blast",
+      "kind": "fungal disease",
+      "urgency": "act now",
+      "summary": "A serious fungal disease that can destroy a crop, especially if it reaches the neck of the panicle.",
+      "actions": [
+        "Treat promptly — blast moves fast under humid conditions.",
+        "Ask your extension officer which fungicide is approved locally and when to apply.",
+        "Stop applying nitrogen until the outbreak is controlled.",
+        "Drain the field briefly if standing water is deep."
+      ],
+      "prevention": [
+        "Plant resistant varieties.",
+        "Split nitrogen applications rather than applying heavily at once.",
+        "Avoid dense planting, which keeps the canopy wet."
+      ],
+      "note": "Excess nitrogen is the most common driver of severe blast."
+    },
+    "bacterial_leaf_blight": {
+      "name": "Bacterial leaf blight",
+      "kind": "bacterial disease",
+      "urgency": "act this week",
+      "summary": "A bacterial disease causing yellow lesions from the leaf tip and margins. Spreads in standing water and through wounds.",
+      "actions": [
+        "Drain the field if possible — the bacteria move in water.",
+        "Stop nitrogen applications until symptoms stop spreading.",
+        "Remove severely affected plants and weed hosts around bunds."
+      ],
+      "prevention": [
+        "Plant resistant varieties, which are the main practical control.",
+        "Avoid clipping seedling tips at transplanting, which creates entry wounds.",
+        "Balance nitrogen with potassium."
+      ],
+      "note": "Fungicides do not work on bacterial diseases. Water and nitrogen management are the levers that matter."
+    },
+    "bacterial_leaf_streak": {
+      "name": "Bacterial leaf streak",
+      "kind": "bacterial disease",
+      "urgency": "act this week",
+      "summary": "Narrow water-soaked streaks between leaf veins, later turning yellow-brown. Related to bacterial leaf blight and managed similarly.",
+      "actions": [
+        "Drain the field where practical.",
+        "Reduce nitrogen until spread stops.",
+        "Remove infected debris after harvest rather than ploughing it in."
+      ],
+      "prevention": [
+        "Use clean, treated seed.",
+        "Plant tolerant varieties where available.",
+        "Control weeds around bunds that host the bacteria."
+      ],
+      "note": "Often confused with leaf blight in the field. Both are bacterial and both respond to the same management."
+    },
+    "bacterial_panicle_blight": {
+      "name": "Bacterial panicle blight",
+      "kind": "bacterial disease",
+      "urgency": "act this week",
+      "summary": "Affects the panicle rather than the leaf, causing discoloured grain and blanking. Worse in hot seasons and carried on seed.",
+      "actions": [
+        "Mark affected areas and avoid saving seed from them.",
+        "Keep the field adequately watered — heat stress worsens it.",
+        "Consult your extension officer; chemical options are limited."
+      ],
+      "prevention": [
+        "Use certified seed rather than saved grain.",
+        "Avoid excessive nitrogen late in the season.",
+        "Plant earlier where possible to avoid flowering during peak heat."
+      ],
+      "note": "Because it is seed-borne, saving grain from an affected field carries the problem into the next season."
+    },
+    "brown_spot": {
+      "name": "Brown spot",
+      "kind": "fungal disease",
+      "urgency": "act this week",
+      "summary": "Dark brown oval lesions on leaves. Usually a sign that the crop is under nutritional or water stress.",
+      "actions": [
+        "Check soil fertility — brown spot commonly follows potassium or silicon deficiency.",
+        "Correct any water stress.",
+        "Treat with an approved fungicide only if severe and spreading."
+      ],
+      "prevention": [
+        "Maintain balanced fertility rather than nitrogen alone.",
+        "Use certified seed; the fungus is seed-borne.",
+        "Avoid prolonged drying of the field during grain filling."
+      ],
+      "note": "Treat brown spot as a symptom of stress as much as an infection. Fixing fertility usually does more than spraying."
+    },
+    "downy_mildew": {
+      "name": "Downy mildew",
+      "kind": "fungal disease",
+      "urgency": "act this week",
+      "summary": "Causes distorted, excessively leafy growth and poor panicle formation. Associated with flooding of young seedlings.",
+      "actions": [
+        "Remove and destroy affected plants — they will not recover or yield.",
+        "Improve field drainage."
+      ],
+      "prevention": [
+        "Avoid deep flooding of young seedlings.",
+        "Level fields so water does not pond in patches.",
+        "Use treated seed."
+      ],
+      "note": "Prolonged flooding of seedlings is the usual trigger, so drainage is the main control."
+    },
+    "tungro": {
+      "name": "Rice tungro",
+      "kind": "viral disease",
+      "urgency": "act now",
+      "summary": "A virus complex spread by green leafhoppers. Causes yellow-orange discolouration and stunting. There is no cure for infected plants.",
+      "actions": [
+        "Remove infected plants promptly to reduce the source of infection.",
+        "Check for green leafhoppers and manage them if numbers are high.",
+        "Inspect neighbouring fields — tungro spreads between plots."
+      ],
+      "prevention": [
+        "Plant resistant varieties.",
+        "Synchronise planting across neighbouring fields to break the vector cycle.",
+        "Remove volunteer rice and grassy weeds between seasons."
+      ],
+      "note": "Controlling the leafhopper matters more than treating the plant, because the virus itself cannot be cured."
+    },
+    "dead_heart": {
+      "name": "Dead heart (stem borer)",
+      "kind": "insect pest",
+      "urgency": "act now",
+      "summary": "The central shoot is dead and pulls out easily — caused by stem borer larvae feeding inside the tiller.",
+      "actions": [
+        "Cut and destroy affected tillers; the larva is inside.",
+        "Check for egg masses on leaf tips and remove them.",
+        "Consult your extension officer before spraying — insecticide is only useful at specific stages, since the larva is protected inside the stem."
+      ],
+      "prevention": [
+        "Avoid excess nitrogen, which encourages borer build-up.",
+        "Cut stubble low after harvest and destroy it.",
+        "Use pheromone traps to time interventions."
+      ],
+      "note": "Once the larva is inside the stem, sprays reach it poorly. Timing and sanitation do more than chemicals."
+    },
+    "hispa": {
+      "name": "Rice hispa",
+      "kind": "insect pest",
+      "urgency": "act this week",
+      "summary": "A beetle whose adults scrape the leaf surface and whose grubs tunnel inside, leaving white streaks and blotches.",
+      "actions": [
+        "Check how much leaf area is affected before deciding to act.",
+        "Clip and destroy heavily affected leaf tips, which carry the grubs.",
+        "Hand-collect adults early in the morning in small plots."
+      ],
+      "prevention": [
+        "Avoid excess nitrogen, which produces the soft growth hispa prefers.",
+        "Keep bunds free of grassy weeds.",
+        "Avoid dense transplanting."
+      ],
+      "note": "Light damage rarely justifies spraying. Rice compensates well for moderate leaf loss."
+    },
+    "normal": {
+      "name": "Healthy",
+      "kind": "no problem detected",
+      "urgency": "none",
+      "summary": "No disease or pest symptoms detected in this image.",
+      "actions": [
+        "Continue routine scouting, especially around maximum tillering and flowering."
+      ],
+      "prevention": [
+        "Keep nitrogen balanced — excess drives blast, blight and several pests.",
+        "Watch for leafhoppers, which spread tungro."
+      ],
+      "note": "One healthy leaf does not mean a healthy field. Walk the plot and check several plants."
+    }
+  },
+  "maize": {
+    "leaf_blight": {
+      "name": "Northern leaf blight",
+      "kind": "fungal disease",
+      "urgency": "act this week",
+      "summary": "Long grey-green to tan cigar-shaped lesions on the leaves. Serious if it reaches the upper leaves before grain filling.",
+      "actions": [
+        "Check how far up the plant lesions have reached — damage above the ear matters far more than below it.",
+        "Ask your extension officer about approved fungicides if the upper leaves are affected before tasselling."
+      ],
+      "prevention": [
+        "Plant resistant hybrids where available.",
+        "Rotate away from maize for a season on affected land.",
+        "Bury or remove crop residue, where the fungus overwinters."
+      ],
+      "note": "Lesions confined to the lower leaves late in the season usually cost little yield and may not be worth treating."
+    },
+    "leaf_spot": {
+      "name": "Leaf spot",
+      "kind": "fungal disease",
+      "urgency": "monitor",
+      "summary": "Small to medium lesions scattered across the leaf. Several fungal leaf spots look alike at this stage.",
+      "actions": [
+        "Note the severity and re-check in one to two weeks.",
+        "Consider treatment only if lesions are spreading onto upper leaves."
+      ],
+      "prevention": [
+        "Rotate crops and manage residue.",
+        "Avoid overhead irrigation late in the day.",
+        "Plant at recommended spacing for airflow."
+      ],
+      "note": "Distinguishing between the fungal leaf spots reliably needs a trained eye or a lab. If in doubt, ask an extension officer."
+    },
+    "streak_virus": {
+      "name": "Maize streak",
+      "kind": "viral disease",
+      "urgency": "act now",
+      "summary": "A virus spread by leafhoppers, producing fine pale streaks along the leaf. Infected plants do not recover.",
+      "actions": [
+        "Remove infected plants, especially early in the season.",
+        "Check for leafhoppers and manage them if numbers are high.",
+        "Note where in the field infection started."
+      ],
+      "prevention": [
+        "Plant resistant varieties, which is the main effective control.",
+        "Plant early and avoid staggered planting dates near an infected field.",
+        "Clear grassy weeds, which host both the virus and the vector."
+      ],
+      "note": "Early infection costs far more yield than late infection. A plant infected before six weeks may produce nothing."
+    },
+    "leaf_beetle": {
+      "name": "Leaf beetle",
+      "kind": "insect pest",
+      "urgency": "monitor",
+      "summary": "Beetles feeding on leaf tissue, leaving holes and scraped areas.",
+      "actions": [
+        "Estimate what fraction of leaf area is damaged before acting.",
+        "Hand-collect in small plots.",
+        "Consult your extension officer if damage exceeds roughly a fifth of leaf area."
+      ],
+      "prevention": [
+        "Keep field margins clear of alternative host weeds.",
+        "Encourage natural predators by avoiding broad-spectrum sprays.",
+        "Monitor weekly during early growth, when plants are most vulnerable."
+      ],
+      "note": "Maize tolerates moderate leaf loss well. Spraying for light damage costs money and kills predators."
+    },
+    "grasshopper": {
+      "name": "Grasshopper",
+      "kind": "insect pest",
+      "urgency": "monitor",
+      "summary": "Grasshoppers feeding on leaves, typically chewing from the margins inward.",
+      "actions": [
+        "Estimate numbers per plant and the fraction of leaf area lost.",
+        "Act if populations are building rapidly or plants are young."
+      ],
+      "prevention": [
+        "Manage grassy vegetation around field edges, where they breed.",
+        "Monitor field margins first — infestations usually move inward.",
+        "Encourage birds and natural predators."
+      ],
+      "note": "Occasional grasshoppers are normal and not worth treating. Sustained high numbers on young plants are the concern."
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "no problem detected",
+      "urgency": "none",
+      "summary": "No disease or pest symptoms detected in this image.",
+      "actions": [
+        "Continue routine scouting, particularly before and during tasselling."
+      ],
+      "prevention": [
+        "Rotate crops and manage residue between seasons.",
+        "Watch for leafhoppers, which spread streak virus."
+      ],
+      "note": "One healthy leaf does not mean a healthy field. Check several plants across the plot."
+    }
+  },
+  "tomato": {
+    "septoria": {
+      "name": "Septoria leaf spot",
+      "kind": "fungal disease",
+      "urgency": "act this week",
+      "summary": "Many small circular spots with dark borders and pale centres, starting on the lower leaves and moving upward.",
+      "actions": [
+        "Remove affected lower leaves and destroy them — do not compost.",
+        "Avoid wetting the foliage when watering.",
+        "Ask your extension officer about approved fungicides if it is climbing the plant."
+      ],
+      "prevention": [
+        "Mulch around the base to stop soil splashing onto lower leaves.",
+        "Stake or cage plants to lift foliage off the ground.",
+        "Rotate away from tomato and related crops for two to three years."
+      ],
+      "note": "It spreads upward by rain and irrigation splash, so mulch and staking prevent more than spraying cures."
+    },
+    "leaf_blight": {
+      "name": "Leaf blight",
+      "kind": "fungal disease",
+      "urgency": "act now",
+      "summary": "Expanding brown lesions on leaves, often with yellowing around them. Can move quickly in warm, humid weather.",
+      "actions": [
+        "Remove and destroy affected leaves and any fallen debris.",
+        "Improve airflow by pruning lower foliage and thinning crowded growth.",
+        "Ask your extension officer about approved fungicides — blight can move faster than removal alone can keep up with."
+      ],
+      "prevention": [
+        "Water at the base rather than over the leaves.",
+        "Space plants for airflow.",
+        "Rotate away from tomato and potato for two to three years."
+      ],
+      "note": "Early and late blight are managed similarly but differ in speed. If lesions spread within days rather than weeks, treat it as urgent."
+    },
+    "verticillium": {
+      "name": "Verticillium wilt",
+      "kind": "fungal disease",
+      "urgency": "act this week",
+      "summary": "A soil-borne fungus that blocks the plant's water vessels. Yellowing often starts on lower leaves and on one side of the plant. Infected plants do not recover.",
+      "actions": [
+        "Remove affected plants including as much root as possible.",
+        "Do not replant tomato or a related crop in the same spot this season.",
+        "Mark the location — the fungus persists in soil for years."
+      ],
+      "prevention": [
+        "Plant resistant varieties, usually marked with a V on the seed packet.",
+        "Rotate with non-susceptible crops such as cereals for several years.",
+        "Solarise affected soil where the climate allows."
+      ],
+      "note": "Fungicides do not reach a soil-borne vascular pathogen. Resistant varieties and rotation are the only reliable controls."
+    },
+    "leaf_curl": {
+      "name": "Tomato leaf curl virus",
+      "kind": "viral disease",
+      "urgency": "act now",
+      "summary": "A virus spread by whiteflies, causing upward curling, puckering and stunted growth. There is no cure for an infected plant.",
+      "actions": [
+        "Remove infected plants promptly — they will not recover and act as a source for the rest of the crop.",
+        "Check the undersides of leaves for whitefly.",
+        "Inspect neighbouring plants, since spread is usually outward from a focus."
+      ],
+      "prevention": [
+        "Plant resistant varieties where available.",
+        "Use yellow sticky traps to monitor whitefly numbers.",
+        "Control whitefly early — once the virus is in the plant it cannot be removed."
+      ],
+      "note": "Managing whitefly matters far more than anything applied to the plant itself."
+    },
+    "healthy": {
+      "name": "Healthy",
+      "kind": "no problem detected",
+      "urgency": "none",
+      "summary": "No disease symptoms detected in this image.",
+      "actions": [
+        "Continue routine monitoring, checking lower leaves and leaf undersides."
+      ],
+      "prevention": [
+        "Water at the base to keep foliage dry.",
+        "Watch for whitefly, which spreads leaf curl virus."
+      ],
+      "note": "One healthy leaf does not mean a healthy plant. Check the lower leaves, where several problems start."
+    }
+  },
+  "_uncertain": {
+    "name": "Uncertain",
+    "kind": "no determination",
+    "urgency": "seek advice",
+    "summary": "The model was not confident enough to name a condition.",
+    "actions": [
+      "Take another photograph: fill the frame with a single affected leaf, in even light, held steady.",
+      "Photograph two or three more leaves from different plants.",
+      "If it still cannot decide, show the plant to a local extension officer."
+    ],
+    "prevention": [],
+    "note": "Declining to answer is deliberate. Below its calibrated threshold the model is wrong often enough that a guess would be worse than no answer."
+  }
+}

@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+
+models/
+data/history.db
+data/review_images/
+
+test_images/
+
+*.keras
+*.h5
+
+.DS_Store
+Thumbs.db
