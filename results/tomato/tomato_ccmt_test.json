@@ -1,0 +1,24 @@
+{
+  "name": "tomato (CCMT) \u2014 held-out test",
+  "n": 788,
+  "accuracy": 0.7969543147208121,
+  "macro_f1": 0.8020915903392277,
+  "conf_correct": 0.835582971572876,
+  "conf_wrong": 0.6471863985061646,
+  "crop": "tomato",
+  "source": "CCMT raw",
+  "classes": [
+    "healthy",
+    "leaf_blight",
+    "leaf_curl",
+    "septoria",
+    "verticillium"
+  ],
+  "kinds": {
+    "septoria": "fungal disease",
+    "leaf_blight": "fungal disease",
+    "verticillium": "fungal disease",
+    "leaf_curl": "viral disease",
+    "healthy": "no problem detected"
+  }
+}

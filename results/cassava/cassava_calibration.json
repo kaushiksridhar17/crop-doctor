@@ -1,0 +1,66 @@
+{
+  "crop": "cassava",
+  "separation": 0.2162683606147766,
+  "sweep": [
+    {
+      "threshold": 0.0,
+      "refer_pct": 0.0,
+      "accuracy": 0.955522609340252,
+      "errors": 60
+    },
+    {
+      "threshold": 0.5,
+      "refer_pct": 0.8895478131949575,
+      "accuracy": 0.9611069558713538,
+      "errors": 52
+    },
+    {
+      "threshold": 0.6,
+      "refer_pct": 2.9651593773165286,
+      "accuracy": 0.9648586707410237,
+      "errors": 46
+    },
+    {
+      "threshold": 0.7,
+      "refer_pct": 4.29948109710897,
+      "accuracy": 0.9721146398140976,
+      "errors": 36
+    },
+    {
+      "threshold": 0.75,
+      "refer_pct": 5.633802816901412,
+      "accuracy": 0.9780047132757266,
+      "errors": 28
+    },
+    {
+      "threshold": 0.8,
+      "refer_pct": 7.11638250555967,
+      "accuracy": 0.9824421388667198,
+      "errors": 22
+    },
+    {
+      "threshold": 0.85,
+      "refer_pct": 9.41438102297999,
+      "accuracy": 0.983633387888707,
+      "errors": 20
+    },
+    {
+      "threshold": 0.9,
+      "refer_pct": 13.194959229058567,
+      "accuracy": 0.9888983774551665,
+      "errors": 13
+    },
+    {
+      "threshold": 0.95,
+      "refer_pct": 26.389918458117123,
+      "accuracy": 0.9939577039274925,
+      "errors": 6
+    },
+    {
+      "threshold": 0.99,
+      "refer_pct": 96.07116382505559,
+      "accuracy": 1.0,
+      "errors": 0
+    }
+  ]
+}

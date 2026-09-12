@@ -1,0 +1,6 @@
+{
+  "crop": "cassava",
+  "clean_accuracy": 0.952638700947226,
+  "swapped_accuracy": 0.8917456021650879,
+  "drop_points": 6.089309878213811
+}

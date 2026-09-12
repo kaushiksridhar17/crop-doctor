@@ -1,0 +1,26 @@
+{
+  "name": "maize (CCMT) \u2014 held-out test",
+  "n": 713,
+  "accuracy": 0.8906030855539971,
+  "macro_f1": 0.8956034328385112,
+  "conf_correct": 0.8880394101142883,
+  "conf_wrong": 0.6477609872817993,
+  "crop": "maize",
+  "source": "CCMT raw",
+  "classes": [
+    "grasshopper",
+    "healthy",
+    "leaf_beetle",
+    "leaf_blight",
+    "leaf_spot",
+    "streak_virus"
+  ],
+  "kinds": {
+    "leaf_spot": "fungal disease",
+    "leaf_blight": "fungal disease",
+    "streak_virus": "viral disease",
+    "leaf_beetle": "insect pest",
+    "grasshopper": "insect pest",
+    "healthy": "no problem detected"
+  }
+}

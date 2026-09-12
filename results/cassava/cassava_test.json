@@ -1,0 +1,23 @@
+{
+  "name": "cassava \u2014 held-out test",
+  "n": 739,
+  "accuracy": 0.952638700947226,
+  "macro_f1": 0.9537098718308159,
+  "conf_correct": 0.9482366442680359,
+  "conf_wrong": 0.7565321922302246,
+  "crop": "cassava",
+  "classes": [
+    "cbb",
+    "cbs",
+    "cmd",
+    "healthy"
+  ],
+  "kinds": {
+    "cbb": "bacterial disease",
+    "cbs": "fungal disease",
+    "cmd": "viral disease",
+    "healthy": "no problem detected"
+  },
+  "backbone": "efficientnetv2s",
+  "img_size": 320
+}

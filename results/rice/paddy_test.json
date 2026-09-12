@@ -1,0 +1,8 @@
+{
+  "name": "Paddy Doctor held-out test",
+  "n": 1385,
+  "accuracy": 0.8895306859205776,
+  "macro_f1": 0.888431749016393,
+  "conf_correct": 0.838716983795166,
+  "conf_wrong": 0.5526676177978516
+}

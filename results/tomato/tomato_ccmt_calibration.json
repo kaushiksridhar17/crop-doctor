@@ -1,0 +1,67 @@
+{
+  "crop": "tomato",
+  "source": "CCMT raw",
+  "separation": 0.19391250610351562,
+  "sweep": [
+    {
+      "threshold": 0.0,
+      "refer_pct": 0.0,
+      "accuracy": 0.8032994923857868,
+      "errors": 155
+    },
+    {
+      "threshold": 0.5,
+      "refer_pct": 7.233502538071068,
+      "accuracy": 0.8344733242134063,
+      "errors": 121
+    },
+    {
+      "threshold": 0.6,
+      "refer_pct": 16.370558375634513,
+      "accuracy": 0.866464339908953,
+      "errors": 88
+    },
+    {
+      "threshold": 0.7,
+      "refer_pct": 27.91878172588832,
+      "accuracy": 0.9014084507042254,
+      "errors": 56
+    },
+    {
+      "threshold": 0.75,
+      "refer_pct": 34.01015228426396,
+      "accuracy": 0.9115384615384615,
+      "errors": 46
+    },
+    {
+      "threshold": 0.8,
+      "refer_pct": 41.75126903553299,
+      "accuracy": 0.9193899782135077,
+      "errors": 37
+    },
+    {
+      "threshold": 0.85,
+      "refer_pct": 49.8730964467005,
+      "accuracy": 0.9443037974683545,
+      "errors": 22
+    },
+    {
+      "threshold": 0.9,
+      "refer_pct": 58.88324873096447,
+      "accuracy": 0.9629629629629629,
+      "errors": 12
+    },
+    {
+      "threshold": 0.95,
+      "refer_pct": 74.11167512690355,
+      "accuracy": 0.9705882352941176,
+      "errors": 6
+    },
+    {
+      "threshold": 0.99,
+      "refer_pct": 96.31979695431471,
+      "accuracy": 0.9310344827586207,
+      "errors": 2
+    }
+  ]
+}
